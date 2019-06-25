@@ -1,10 +1,155 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>手机站首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/public.js"></script>
 </head>
 <body>
 
+<div class="container" style="padding: 0;">
+    <!--    header-->
+    <!--    顶部logo区域-->
+    <div class="row">
+        <div class="col-10 logo-left" style="padding-left: 0px;">
+            <img src="./images/logo.png" alt="">
+        </div>
+        <div class="col-2 logo-right">
+            <div class="san"><span>三</span></div>
+        </div>
+    </div>
+    <!--    伸缩nav导航-->
+    <div class="row nav-list">
+        <div class="col-4 nav-li">
+            <a href="/"> <span>首页</span></a>
+        </div>
+        <div class="col-4 nav-li">
+            <a href="/"> <span>关于我们</span></a>
+        </div>
+        <div class="col-4 nav-li">
+            <a href="/"> <span>服务项目</span></a>
+        </div>
+        <div class="col-4 nav-li">
+            <a href="/"> <span>人事外包</span></a>
+        </div>
+        <div class="col-4 nav-li">
+            <a href="/"> <span>劳务派遣</span></a>
+        </div>
+        <div class="col-4 nav-li">
+            <a href="/"> <span>联系我们</span></a>
+        </div>
+    </div>
+    <!--    header-end-->
+    <!--    列表头-->
+    <div class="flc"><span style="float:left; width:58%;"><i class="demo-icon icon-th-thumb"></i>服务项目</span>
+        <div class="subtitle">
+            <span class="classbtn">栏目列表</span>
+            <ul style="display: none;" class="class">
+                <li><a href="http://www.llzphr.com/product/lwpq.html">劳务派遣</a> </li>
+                <li><a href="http://www.llzphr.com/product/rswb.html">人事外包</a> </li>
+                <li><a href="http://www.llzphr.com/product/rlzy.html">人力资源</a> </li>
+                <li><a href="http://www.llzphr.com/product/rsdl.html">人事代理</a> </li>
+                <li><a href="http://www.llzphr.com/product/sbdj.html">社保代缴</a> </li>
+                <li><a href="http://www.llzphr.com/product/lsgwb.html">临时工外包</a> </li>
+            </ul>
+        </div>
+    </div>
+    <!--   图片 列表-->
+    <div class="list-img">
+        <ul class="product">
+            <div style="margin-top:10px" id="pro">
+                <li> <a href="http://www.llzphr.com/206.html" title="东平镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/809eb852ef92cff8.jpg" alt="东平镇"></a> <a href="http://www.llzphr.com/206.html" class="pictitle">东平镇</a> </li>
+                <li> <a href="http://www.llzphr.com/205.html" title="绿华镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/2b087936e34cc2b3.jpg" alt="绿华镇"></a> <a href="http://www.llzphr.com/205.html" class="pictitle">绿华镇</a> </li>
+                <li> <a href="http://www.llzphr.com/204.html" title="长兴岛镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/027546b2c244b524.jpg" alt="长兴岛镇"></a> <a href="http://www.llzphr.com/204.html" class="pictitle">长兴岛镇</a> </li>
+                <li> <a href="http://www.llzphr.com/203.html" title="三星镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/548b39a534f06670.jpg" alt="三星镇"></a> <a href="http://www.llzphr.com/203.html" class="pictitle">三星镇</a> </li>
+                <li> <a href="http://www.llzphr.com/202.html" title="庙镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/02b5577fb47266c9.jpg" alt="庙镇"></a> <a href="http://www.llzphr.com/202.html" class="pictitle">庙镇</a> </li>
+                <li> <a href="http://www.llzphr.com/201.html" title="港西镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/09cf9dcb6f6968e8.jpg" alt="港西镇"></a> <a href="http://www.llzphr.com/201.html" class="pictitle">港西镇</a> </li>
+                <li> <a href="http://www.llzphr.com/200.html" title="城桥镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/ff22b1492ee7ccf3.jpg" alt="城桥镇"></a> <a href="http://www.llzphr.com/200.html" class="pictitle">城桥镇</a> </li>
+                <li> <a href="http://www.llzphr.com/199.html" title="建设镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/67489f144d83435d.jpg" alt="建设镇"></a> <a href="http://www.llzphr.com/199.html" class="pictitle">建设镇</a> </li>
+                <li> <a href="http://www.llzphr.com/198.html" title="新河镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/1b33ec76bf1e318e.jpg" alt="新河镇"></a> <a href="http://www.llzphr.com/198.html" class="pictitle">新河镇</a> </li>
+                <li> <a href="http://www.llzphr.com/197.html" title="堡镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/3163ffaa6c0ef03f.jpg" alt="堡镇"></a> <a href="http://www.llzphr.com/197.html" class="pictitle">堡镇</a> </li>
+                <li> <a href="http://www.llzphr.com/196.html" title="向化镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/4273fde72aea8f7a.jpg" alt="向化镇"></a> <a href="http://www.llzphr.com/196.html" class="pictitle">向化镇</a> </li>
+                <li> <a href="http://www.llzphr.com/195.html" title="港沿镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/4f1d0742de0fec56.jpg" alt="港沿镇"></a> <a href="http://www.llzphr.com/195.html" class="pictitle">港沿镇</a> </li>
+                <li> <a href="http://www.llzphr.com/194.html" title="中兴镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/d5917beb7e451202.jpg" alt="中兴镇"></a> <a href="http://www.llzphr.com/194.html" class="pictitle">中兴镇</a> </li>
+                <li> <a href="http://www.llzphr.com/193.html" title="陈家镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/391fd8f4a1ae00c6.jpg" alt="陈家镇"></a> <a href="http://www.llzphr.com/193.html" class="pictitle">陈家镇</a> </li>
+                <li> <a href="http://www.llzphr.com/192.html" title="老港镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/aaaadbfd24c0b5b3.jpg" alt="老港镇"></a> <a href="http://www.llzphr.com/192.html" class="pictitle">老港镇</a> </li>
+                <li> <a href="http://www.llzphr.com/191.html" title="万祥镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/9b692dbcc7783ff1.jpg" alt="万祥镇"></a> <a href="http://www.llzphr.com/191.html" class="pictitle">万祥镇</a> </li>
+                <li> <a href="http://www.llzphr.com/190.html" title="宣桥镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/f80984b662b099ca.jpg" alt="宣桥镇"></a> <a href="http://www.llzphr.com/190.html" class="pictitle">宣桥镇</a> </li>
+                <li> <a href="http://www.llzphr.com/189.html" title="书院镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/fb6f7b58c38af815.jpg" alt="书院镇"></a> <a href="http://www.llzphr.com/189.html" class="pictitle">书院镇</a> </li>
+                <li> <a href="http://www.llzphr.com/188.html" title="泥城镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/038d7c5dd4c173fa.jpg" alt="泥城镇"></a> <a href="http://www.llzphr.com/188.html" class="pictitle">泥城镇</a> </li>
+                <li> <a href="http://www.llzphr.com/187.html" title="祝桥镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/d46b7fc541493d34.jpg" alt="祝桥镇"></a> <a href="http://www.llzphr.com/187.html" class="pictitle">祝桥镇</a> </li>
+                <li> <a href="http://www.llzphr.com/186.html" title="六灶镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/ad7808d31057cf64.jpg" alt="六灶镇"></a> <a href="http://www.llzphr.com/186.html" class="pictitle">六灶镇</a> </li>
+                <li> <a href="http://www.llzphr.com/185.html" title="航头镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/5c14c318e16f91e6.jpg" alt="航头镇"></a> <a href="http://www.llzphr.com/185.html" class="pictitle">航头镇</a> </li>
+                <li> <a href="http://www.llzphr.com/184.html" title="康桥镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/a4fe44cbd01881d4.jpg" alt="康桥镇"></a> <a href="http://www.llzphr.com/184.html" class="pictitle">康桥镇</a> </li>
+                <li> <a href="http://www.llzphr.com/183.html" title="&#8203;芦潮港镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/f935d11258f1a152.jpg" alt="&#8203;芦潮港镇"></a> <a href="http://www.llzphr.com/183.html" class="pictitle">&#8203;芦潮港镇</a> </li>
+                <li> <a href="http://www.llzphr.com/182.html" title="大团镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/a7716c06a916bd05.jpg" alt="大团镇"></a> <a href="http://www.llzphr.com/182.html" class="pictitle">大团镇</a> </li>
+                <li> <a href="http://www.llzphr.com/181.html" title="新场镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/53fdd48f77a4ed34.jpg" alt="新场镇"></a> <a href="http://www.llzphr.com/181.html" class="pictitle">新场镇</a> </li>
+                <li> <a href="http://www.llzphr.com/180.html" title="周浦镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/813a30b816d1c4f4.jpg" alt="周浦镇"></a> <a href="http://www.llzphr.com/180.html" class="pictitle">周浦镇</a> </li>
+                <li> <a href="http://www.llzphr.com/179.html" title="惠南镇" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/50fcf5f5a0846b58.jpg" alt="惠南镇"></a> <a href="http://www.llzphr.com/179.html" class="pictitle">惠南镇</a> </li>
+                <li> <a href="http://www.llzphr.com/178.html" title="新村" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/c1a17d0a7f5a07c8.jpg" alt="新村"></a> <a href="http://www.llzphr.com/178.html" class="pictitle">新村</a> </li>
+                <li> <a href="http://www.llzphr.com/177.html" title="横沙" class="picbox"><img class="imgauto" src="http://www.llzphr.com/res/201903/15/a35e575c14964f11.jpg" alt="横沙"></a> <a href="http://www.llzphr.com/177.html" class="pictitle">横沙</a> </li>
+            </div>
+        </ul>
+        <p class="clear"></p>
+    </div>
+    <!--    //页码-->
+    <div class="row list-page-pege">
+
+    </div>
+</div>
+
+<!--footer-->
+<!--    版权与备案-->
+<div class="col-12 beian"><p> Copyright © 2019 保定朋旺劳务外包服务有限公司</p></div>
+<div style="width: 100%;height: 50px;"></div>
+<!--    浮动底部-->
+<div class="footer col-12" style="padding: 0px;">
+    <div class="footer-li col-3">
+        <img src="./images/icon_3.png" alt="">
+        <p>主页</p>
+    </div>
+    <div class="footer-li col-3">
+        <img src="./images/icon_4.png" alt="">
+        <p>发送短信</p>
+    </div>
+    <div class="footer-li col-3">
+        <img src="./images/icon_5.png" alt="">
+        <p>联系我们</p>
+    </div>
+    <div class="footer-li col-3">
+        <img src="./images/icon_qq.png" alt="">
+        <p>QQ咨询</p>
+    </div>
+</div>
+<div id="topcontrol" title="返回顶部" style="position: fixed; bottom: 80px; right: 30px; opacity: 1; cursor: pointer;"><img
+        src="./images/fhdb.png" alt=""></div>
+<!--footer-end-->
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal', // 垂直切换选项
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    })
+</script>
 </body>
 </html>
+

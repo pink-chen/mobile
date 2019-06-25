@@ -17,7 +17,10 @@ a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
     background-color: #000;
     color: #fff;
     margin-top: 5px;
-
+    font-size: 15px;
+}
+.nav-list a:link{
+    color: #fff;
 }
 
 .nav-list .nav-li{
@@ -41,11 +44,21 @@ a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
 }
 .fuwu-li{
     text-align: center;
+    font-size: 12px;
 }
 .fuwu-li p{
     line-height: 40px;
-    font-size: 16px;
+    font-size: 12px;
+    color: #666;
 }
+.jianjie-img{
+    text-align: right;
+}
+.jianjie-img img{
+    width: 100px;
+    height: 100px;
+}
+
 .fuwu-li img {
     width: 90%;
     margin-top: 5px;
@@ -96,21 +109,76 @@ div{
     position: fixed;
     bottom: 0px;
     height: 50px;
-
+    background-color: #2383cf;
+    font-size: 12px;
+    text-align: center;
 }
 .footer-li{
     height: 50px;
     width: 25%;
     text-align: center;
-    border: 1px solid #ccc;
     float: left;
-    background-color: #ccc;
+    background-color: #2383cf;
     padding: 0px;
+    border-right: 1px solid #2892e6;
+}
+.footer-li img{
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
+}
+.footer-li p{
+    width: auto;
+    height: 22px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
 }
 div{
     box-sizing: border-box;
 }
+.more{
+    display: block;
+    color: #999;
+    padding: 1% 0;
+    font-size: 12px;
+}
+.more:link{
+    color: #999;
+}
 
+.anli-li p{
+    line-height: 40px;
+}ul,li{
+    list-style: none;
+ }
+ .anli-li{}
+.date{
+    display: block;
+    float: right;
+}
+.beian{
+    background-color: #444;
+    width: 440px;
+    height: 60px;
+}
+.beian p{
+    line-height: 60px;
+    text-align: center;
+    color: #999;
+}
+.beian{
+    border-top: 3px solid #ccc;
+}
+.active{
+    height: 96px;
+
+}
+.zx-list li{
+    border-bottom: 1px dashed #ccc;
+    line-height: 40px;
+    padding-left: 10px;
+}
 
 
 
